@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1217606836763334587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5813374420031088346}
+  - component: {fileID: 4208405850067237482}
+  m_Layer: 0
+  m_Name: GameAsset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5813374420031088346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217606836763334587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4208405850067237482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217606836763334587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f10d69dea8bede42a60bde686d81ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundAudioClips:
+  - soundName: Appear
+    audioClip: {fileID: 8300000, guid: 40c9e02ba9c5db544a55596285aaf8dd, type: 3}
+  - soundName: Bubble_Appear
+    audioClip: {fileID: 8300000, guid: bbcf8da959725a74bb2ffe8ff95731bc, type: 3}
+  - soundName: Bubble_Pop
+    audioClip: {fileID: 8300000, guid: c4ae04562f2912640a3f0d6dde4a006a, type: 3}
+  - soundName: Chest
+    audioClip: {fileID: 8300000, guid: 2ef3bb47ab0448d419aa97ca63c03a10, type: 3}
+  - soundName: Background
+    audioClip: {fileID: 8300000, guid: a4d7db23f869f3148a13169f717cbc38, type: 3}
+  - soundName: Gateopen
+    audioClip: {fileID: 8300000, guid: cff9d14725d2dc041b107b517dc1c1a6, type: 3}
+  - soundName: Rain
+    audioClip: {fileID: 8300000, guid: aaafa6cf8a14ff943a727391d4da0fe4, type: 3}
+  - soundName: Spell_Wrong
+    audioClip: {fileID: 8300000, guid: 52cf338f53f90704db5c91d163ff89e9, type: 3}
+  - soundName: Spell_Correct
+    audioClip: {fileID: 8300000, guid: 6a3d29933ad05724780737724e52c548, type: 3}
+  - soundName: UI_Click
+    audioClip: {fileID: 8300000, guid: fed4f96db0981c446a5d2a6f56dcac86, type: 3}
+  spells:
+  - word: Tree
+    spellType: 1
+    createdObject: {fileID: 1199446499104445383, guid: 93d6cee5ea6cd0c4f83fc65c332f7c93, type: 3}
+    position: {x: 0, y: 0, z: 10}
+    roatation: {x: 0, y: 0, z: 0, w: 0}
+  - word: Gate
+    spellType: 1
+    createdObject: {fileID: 7325619681777031619, guid: 62e4f5b67c9a98046910014f19d7cd7a, type: 3}
+    position: {x: 0, y: 0, z: 10}
+    roatation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
+  - word: Rain
+    spellType: 1
+    createdObject: {fileID: 1142934753498752311, guid: e05468e0259a9594b9d33ac5f7ad6844, type: 3}
+    position: {x: 0, y: 0, z: 10}
+    roatation: {x: 0, y: 0, z: 0, w: 1}
+  - word: Chest
+    spellType: 1
+    createdObject: {fileID: 3267910436439815121, guid: d2ddb012d2465fa4cb145cf930d1bda8, type: 3}
+    position: {x: 0.34, y: 0, z: -2.82}
+    roatation: {x: 0, y: 0.026787598, z: 0, w: 0.9996411}
+  alphabets:
+  - alphbetName: A
+    model: {fileID: 6157117880141131119, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: B
+    model: {fileID: -4909277789374002350, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: C
+    model: {fileID: 8939266724133516769, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: D
+    model: {fileID: 281315202980364329, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: E
+    model: {fileID: -7746497135072881621, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: F
+    model: {fileID: -1644355878584749679, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: G
+    model: {fileID: 1907795020790290496, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: H
+    model: {fileID: -6048717895273133781, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: I
+    model: {fileID: -6425600238377421303, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: J
+    model: {fileID: -1434902202865794022, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: K
+    model: {fileID: -6612916564974270675, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: L
+    model: {fileID: 2658800326358589857, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: M
+    model: {fileID: -3214572557560747977, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: N
+    model: {fileID: 1670262680622686082, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: O
+    model: {fileID: 8379677281609801307, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: P
+    model: {fileID: 1731728394525301911, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: Q
+    model: {fileID: 7429288146537312290, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: R
+    model: {fileID: -4693480790355496552, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: S
+    model: {fileID: -9074724860412756288, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: T
+    model: {fileID: -2020707242700487084, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: U
+    model: {fileID: 6856768601106367328, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: V
+    model: {fileID: -4161497618794897476, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: W
+    model: {fileID: 8826643962087455625, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: X
+    model: {fileID: -496058992349931718, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: Y
+    model: {fileID: 1464361123701606782, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}
+  - alphbetName: Z
+    model: {fileID: 3141120828048097299, guid: 12cf0d7a9072fc64fbda60b6f33e1cb9, type: 3}

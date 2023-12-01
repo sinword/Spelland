@@ -1,0 +1,70 @@
+
+{
+    "ID" : "1727234757643392",
+    "Version" : "0.1",
+    "Domain"  : "shapes_short_demo",
+    "Entities" : [
+    ],
+    "Actions"  : [
+        {
+            "ID" : "Oculus.Voice.Demo.ShortResponseColorHandler.OnValidateShapeSelect",
+            "Assembly" : "Oculus.Voice.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Name"     : "shape_select",
+            "Parameters" : [
+                {
+                    "Name" : "session_data",
+                    "InternalName" : "sessionData",
+                    "QualifiedName" : "Oculus_Voice_Demo_ShortResponseColorHandler_OnValidateShapeSelect_session_data",
+                    "EntityType"    : "VoiceSession",
+                    "TypeAssembly"  : "Facebook.WitAI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "QualifiedTypeName" : "Facebook.WitAi.Data.VoiceSession",
+                    "Aliases"           : [
+                    ]
+                },
+                {
+                    "Name" : "shape",
+                    "InternalName" : "shape",
+                    "QualifiedName" : "Oculus_Voice_Demo_ShortResponseColorHandler_OnValidateShapeSelect_shape",
+                    "EntityType"    : "String",
+                    "TypeAssembly"  : "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "QualifiedTypeName" : "System.String",
+                    "Aliases"           : [
+                    ]
+                }
+            ],
+            "DeclaringTypeName" : "Oculus.Voice.Demo.ShortResponseColorHandler",
+            "Aliases"           : [
+            ]
+        },
+        {
+            "ID" : "Oculus.Voice.Demo.ShortResponseColorHandler.OnValidateColorSet",
+            "Assembly" : "Oculus.Voice.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Name"     : "color_set",
+            "Parameters" : [
+                {
+                    "Name" : "session_data",
+                    "InternalName" : "sessionData",
+                    "QualifiedName" : "Oculus_Voice_Demo_ShortResponseColorHandler_OnValidateColorSet_session_data",
+                    "EntityType"    : "VoiceSession",
+                    "TypeAssembly"  : "Facebook.WitAI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "QualifiedTypeName" : "Facebook.WitAi.Data.VoiceSession",
+                    "Aliases"           : [
+                    ]
+                },
+                {
+                    "Name" : "color",
+                    "InternalName" : "color",
+                    "QualifiedName" : "Oculus_Voice_Demo_ShortResponseColorHandler_OnValidateColorSet_color",
+                    "EntityType"    : "String",
+                    "TypeAssembly"  : "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "QualifiedTypeName" : "System.String",
+                    "Aliases"           : [
+                    ]
+                }
+            ],
+            "DeclaringTypeName" : "Oculus.Voice.Demo.ShortResponseColorHandler",
+            "Aliases"           : [
+            ]
+        }
+    ]
+}
